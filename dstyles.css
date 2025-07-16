@@ -1,0 +1,73 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f4f6fb;
+  margin: 0;
+  padding: 0;
+}
+main {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+section {
+  margin-bottom: 32px;
+  padding: 20px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+section:last-child {
+  border-bottom: none;
+}
+h2 {
+  margin-top: 0;
+  color: #2d3a4a;
+  font-size: 1.3rem;
+}
+input[type="number"] {
+  width: 120px;
+  padding: 8px;
+  margin-right: 12px;
+  border: 1px solid #bfc9d3;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+select {
+  padding: 8px;
+  margin: 0 8px;
+  border: 1px solid #bfc9d3;
+  border-radius: 6px;
+  font-size: 1rem;
+  background: #f8fafc;
+}
+button {
+  padding: 8px 18px;
+  background: #3b82f6;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-left: 12px;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #2563eb;
+}
+div[id$="-result"] {
+  margin-top: 12px;
+  font-weight: bold;
+  color: #2563eb;
+  min-height: 24px;
+}
+@media (max-width: 700px) {
+  main {
+    max-width: 98vw;
+    padding: 8px;
+  }
+  input[type="number"], select, button {
+    font-size: 0.95rem;
+    padding: 6px;
+  }
+}
